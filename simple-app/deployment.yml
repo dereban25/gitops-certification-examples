@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: simple-deployment
-  namespace: dereban25
+  # namespace: dereban25
 spec:
   replicas: 1
   selector:
